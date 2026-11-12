@@ -1,0 +1,18 @@
+﻿# 编译产物（每次编译都会变，不要提交）
+build/
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# IDE 本机配置（.cproject / .project 要保留）
+.settings/
+.metadata/
+*.launch
+RemoteSystemsTempFiles/
+
+# 系统垃圾文件
+Thumbs.db
+desktop.ini
